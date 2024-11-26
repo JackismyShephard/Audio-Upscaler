@@ -4,13 +4,16 @@ import os
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = "versatile-audio-upscaler"
-DESCRIPTION = "Versatile AI-driven audio upscaler to enhance the quality of any audio."
-URL = "https://github.com/IAHispano/Audio-Upscaler"
-EMAIL = "blaise@applio.org"
-AUTHOR = "Pascal Aznar"
+NAME = "versatile-audio-upscaler-fixed"
+DESCRIPTION = (
+    "Versatile AI-driven audio upscaler to enhance the quality of any audio -- Now"
+    " supporting Numpy +1.26"
+)
+URL = "https://github.com/JackismyShephard/Audio-Upscaler"
+EMAIL = "jackismyshephard@gmail.com"
+AUTHOR = "Jack Is My Shephard"
 REQUIRES_PYTHON = ">=3.7.0"
-VERSION = "0.0.2"
+VERSION = "0.0.3"
 
 REQUIRED = [
     "torch>=1.13.0",
@@ -20,7 +23,7 @@ REQUIRED = [
     "pyyaml",
     "einops",
     "chardet",
-    "numpy<=1.23.5",
+    "numpy<=1.26.4",
     "soundfile",
     "librosa==0.9.2",
     "scipy",
