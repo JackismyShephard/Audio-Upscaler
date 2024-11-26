@@ -13,7 +13,7 @@ URL = "https://github.com/JackismyShephard/Audio-Upscaler"
 EMAIL = "jackismyshephard@gmail.com"
 AUTHOR = "Jack Is My Shephard"
 REQUIRES_PYTHON = ">=3.7.0"
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 
 REQUIRED = [
     "torch>=1.13.0",
@@ -25,7 +25,7 @@ REQUIRED = [
     "chardet",
     "numpy<=1.26.4",
     "soundfile",
-    "librosa==0.9.2",
+    "librosa>=0.9.2",
     "scipy",
     "pandas",
     "tokenizers>=0.14.1",
